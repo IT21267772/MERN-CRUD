@@ -1,0 +1,104 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.top {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.top button {
+  padding: 20px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.productForm {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  padding: 10px 40px;
+  border-radius: 20px;
+}
+
+.productForm label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.productForm input {
+  width: 200px;
+  height: 30px;
+}
+
+.productForm button {
+  margin-top: 40px;
+  height: 30px;
+  background-color: rgb(27, 27, 176);
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  color: white;
+}
+
+
+.products {
+  border: 1px solid black;
+}
+
+.hName, .hPrice, .hQty, .hImg, .hAction {
+  text-align: center;
+  background-color: rgb(75, 114, 148);
+  font-size: 24px;
+  padding: 5px;
+}
+
+.name, .price, .image, .qty {
+  text-align: center;
+  padding: 5px 20px;
+}
+
+.action button {
+  margin: 0 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 20px;
+  color: white;
+}
+
+.action .view {
+  background-color: gray;
+}
+
+.action .update {
+  background-color: rgb(25, 153, 25);
+}
+
+.action .delete {
+  background-color: rgb(216, 40, 40);
+}
+
+.button {
+  padding: 20px;
+  background-color: beige;
+}
+
+.productCard {
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  padding: 20px 90px;
+  border-radius: 10px;
+}
+
+.productCard table {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.productCard table tr td {
+  border: 1px solid gray;
+}
